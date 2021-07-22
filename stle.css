@@ -1,0 +1,109 @@
+/*#main{
+    color:black;
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+    padding: 35px;
+    border-radius: 5px;
+    background: wheat;
+    font-family: 'Open Sans', sans-serif;
+}
+#quote{
+    font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: small;
+    line-height: 1.2;
+    padding: -5px;
+    border-radius: 5px;
+    justify-content: right;
+} */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  color:whitesmoke;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 1;
+  color: whitesmoke;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 1rem;
+    line-height: 1;
+    background-color: chartreuse;
+  }
+}
+#main {
+    margin: 50px 20px;
+    
+    border-radius: 5px;
+    background-color: black;
+  }
+  @media (max-width: 460px) {
+    #main {
+      margin: 2;
+    }
+  }
+  @keyframes imagetravel {
+    0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+  }
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    animation: imagetravel ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+}
+#img-div {
+    background: black;
+    padding: 10px;
+    margin: 0;
+  }
+#img-caption{
+margin: 10px 0px 2px 0px;
+font-size: small;
+}
+div{
+    position: relative;
+  animation-name: h3;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+  #headline{
+    margin: 20px;
+    color: blanchedalmond;
+  }
+  ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+  #tribute-link
+  {
+    color: beige;
+  }
